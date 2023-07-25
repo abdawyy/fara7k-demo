@@ -1,0 +1,347 @@
+body{
+    margin: 0px;
+    
+    position: relative;
+}
+p{
+    padding: 10px;
+    font-size: x-small;
+   color:  rgb(186, 25, 226);
+}
+.container{
+    
+    width: 0;
+}
+.left-column{
+    height: 80%;
+    width: 500px;
+    background-color: rgb(129, 25, 226);
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    float: left;
+    z-index: 1;
+    
+}
+.right-column{
+    height: 80%;
+    width: 500px;
+    background-color: rgb(129, 25, 226,0.1);
+    border-top-left-radius: 300px;
+    float:right;
+    margin-top: 194px;
+    z-index: 2;
+    
+   
+   
+    
+
+}
+.phone{
+    background-color: white;
+    width: 280px;
+    height: 550px;
+    position: absolute;
+    z-index: 100;
+    top: 200px;
+    left: 420px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 50px 10px rgba(0,0,0,0.2);
+}
+.screen{
+    background-color: rgba(0,0,0,0.05);
+    height: 525px;
+    margin: 15px;
+   border-radius: 20px;
+   
+}
+.roww-one .title{
+    background-color: white;
+    width: 100px;
+    height: 10px;
+    border-radius: 25px;
+    position: relative;
+    left: 75px;
+    bottom: 8px;
+    padding: 5px;
+    justify-content:     
+    
+
+}
+.roww-one{
+    width: 100%;
+    height: 50px;
+    background-image: linear-gradient(to left, rgb(247, 4, 255), rgb(102, 0, 255));
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px ;
+    display: flex;
+    flex-wrap:wrap;
+    position: relative;
+}
+.roww-one p{
+    font-size:xx-small;
+    position: relative;
+    left: 50px;
+    bottom: 13px;
+    color:rgba(2550,255,255,0.6) !important;
+    padding: 0px !important;
+}
+.roww-one span{
+    font-size:small;
+    font-weight: 0;
+    color: white !important;
+    margin: 0 !important;
+    
+    
+}
+.circle::before{
+    position: absolute;
+    /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+    content: "";
+    display: block;
+    /* By using an em scale, the arrows will size with the font */
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.1em solid white;
+    border-top: 0.1em solid white;
+    transform: rotate(-130deg);
+    margin-right: 0;
+    top: 27px;
+    bottom: 0px;
+    left: 29px;
+    right: 0px;
+
+}
+.content{
+    width: 260px;
+    background-color: transparent;
+    display: flex;
+    
+}
+.roww-two{
+    background-color: rgba(0,0,0,0.1);
+    width: 120px;
+    font-size: x-small;
+    padding: 0px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.roww-three{
+    background-color: rgba(0,0,0,0.1);
+    width: 120px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.roww-four{
+    
+    
+    margin-left: 115px;
+    
+}
+.roww-five{
+    margin-left: 125px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 120px;
+    
+
+
+}
+.roww-five p{
+     color: black;
+}
+.roww-six{
+    margin-left: 145px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+}
+.roww-six P{
+    color: black;
+}
+.roww-seven{
+    background-color: rgba(0,0,0,0.1);
+    width: 150px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.roww-eight,
+.roww-nine{
+    background-image: linear-gradient(to right, rgb(247, 4, 255), rgb(102, 0, 255));
+    width: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    
+    padding: 0;
+    
+}
+.roww-eight p,
+.roww-nine p{
+    color: rgba(255,255,255,0.5)
+   
+ 
+}
+p span{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    margin-left: 60px;
+}
+p .s{
+    
+    margin-left: 72px;
+}
+.roww-eight p::before,
+.roww-nine p::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    -moz-border-radius: 7.5px;
+    -webkit-border-radius: 7.5px;
+    border-radius: 7.5px;
+    background-color:transparent;
+    border: 1px rgba(255,255,255,0.5) solid;
+    position: relative;
+    top: 2px;
+    margin-right: 5px;
+ 
+}
+ 
+.roww-ten{
+    background-color: white;
+    height: 30px;
+    width: 230px;
+    margin: 10px;
+    border-radius: 90px;
+    display: flex;
+    
+}
+.roww-ten p{
+    width: 70px;
+    color: rgba(0,0,0,0.1);
+    position: relative;
+    top: -10px;
+    bottom: 0;
+    right: 0;
+    left: 6px;
+}
+
+.roww-ten .circle{
+    background-color: rgb(40, 1, 58);
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    position: relative;
+    top: 4px;
+    bottom: 0;
+    right: 0;
+    left: 112px;
+}
+
+
+
+
+.roww-ten .circle::before{
+    position: relative;
+    /* top: 3pt; Uncomment this to lower the icons as requested in comments*/
+    content: "";
+    display: inline-block;
+    /* By using an em scale, the arrows will size with the font */
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.2em solid white;
+    border-top: 0.2em solid white;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+    top: 7px;
+    bottom: 0;
+    right: 0;
+    left: 6px;
+}
+.circle img{
+    position: relative;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    border: 1px white solid;
+}
+.roww-four img{
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+}
+.article{
+    
+    width: 500px;
+    position: absolute;
+    background-color:transparent;
+    margin: auto 200px;
+    z-index: 500;
+    top: 265px;
+    bottom: 0;
+    right: 0;
+    left: 550px;
+}
+.article h1{
+    color: rgb(40, 1, 58);
+    margin-left: 10px;
+}
+.article p{
+    font-size: large;
+    color: rgba(0,0,0,0.2);
+    
+}
+@media(max-width:600px){
+    body{
+        
+    }
+    .left-column{
+        height: 50%;
+        width: 40%;
+        border-bottom-left-radius: 0px;
+    }
+    .right-column{
+        position: relative;
+        height: 50%;
+        width: 40%;
+        top: 245px;
+    }
+    .phone{
+        position: absolute;
+        top: 25px;
+        left: 55px;
+       
+      
+    }
+    .screen{
+       
+        ]
+    .article{
+        top: 580px;
+        left: -140px;
+        width: 80%;
+    }
+    .article p{
+        width: 80%;
+    }
+     .row-nine p span{
+        font-size:small;
+    }
+    .row-eight p span{
+        font-size:small;
+        
+    }
+    .row-one,
+    .row-two,
+    .row-three,
+    
+    .row-seven,
+    .row-eight,
+    .row-nine,
+    .row-ten{
+        margin-left:  5px;
+    }
+}

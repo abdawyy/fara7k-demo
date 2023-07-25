@@ -1,0 +1,25 @@
+form{
+    width: 30%;
+    margin: 150px auto;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 5px solid rgb(193, 0, 161);
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px 10px grey;
+}
+form div{
+    margin: 5px;
+    padding: 5px;
+}
+bod{
+    background: linear-gradient(white, rgb(200, 4, 200), rgb(150,0,150), rgb(90, 0, 147));
+}
+body{
+    box-shadow: 0px 0px 0px 0px;
+    background: rgba(8, 0, 0, 0.36);
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
